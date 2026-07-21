@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Player Profiles | CricketVerse</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+background:#0B6623;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+}
+
+header p{
+margin-top:10px;
+}
+
+/* Navigation */
+
+nav{
+background:#014421;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* Page Title */
+
+.title{
+text-align:center;
+font-size:40px;
+color:#0B6623;
+margin:40px 0;
+}
+
+/* Player Cards */
+
+.container{
+width:90%;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding-bottom:40px;
+}
+
+.card{
+width:320px;
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:350px;
+object-fit:cover;
+}
+
+.card h2{
+text-align:center;
+padding:15px;
+color:#0B6623;
+}
+
+.info{
+padding:15px;
+line-height:1.8;
+}
+
+button{
+display:block;
+margin:20px auto;
+padding:10px 25px;
+background:#0B6623;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:gold;
+color:black;
+}
+
+/* Footer */
+
+footer{
+background:#0B6623;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🏏 CricketVerse</h1>
+
+<p>Your Ultimate Cricket Destination</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="news.html">News</a>
+<a href="players.html">Players</a>
+<a href="rankings.html">Rankings</a>
+<a href="records.html">Records</a>
+<a href="worldcup.html">World Cup</a>
+<a href="ipl.html">IPL</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<h1 class="title">🌟 Indian Cricket Stars</h1>
+
+<div class="container">
+
+<div class="card">
+
+<img src="images/virat.jpg" alt="Virat Kohli">
+
+<h2>Virat Kohli</h2>
+
+<div class="info">
+
+<b>Country:</b> India<br>
+<b>Role:</b> Batsman<br>
+<b>Batting:</b> Right Handed<br>
+<b>Centuries:</b> 80+<br>
+<b>Nickname:</b> King Kohli
+
+</div>
+
+<button>View Profile</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/rohit.jpg" alt="Rohit Sharma">
+
+<h2>Rohit Sharma</h2>
+
+<div class="info">
+
+<b>Country:</b> India<br>
+<b>Role:</b> Batsman<br>
+<b>Batting:</b> Right Handed<br>
+<b>ODI Double Hundreds:</b> 3<br>
+<b>Nickname:</b> Hitman
+
+</div>
+
+<button>View Profile</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/bumrah.jpg" alt="Jasprit Bumrah">
+
+<h2>Jasprit Bumrah</h2>
+
+<div class="info">
+
+<b>Country:</b> India<br>
+<b>Role:</b> Fast Bowler<br>
+<b>Bowling:</b> Right Arm Fast<br>
+<b>Speciality:</b> Yorkers<br>
+<b>Nickname:</b> Boom Boom
+
+</div>
+
+<button>View Profile</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/dhoni.jpg" alt="MS Dhoni">
+
+<h2>MS Dhoni</h2>
+
+<div class="info">
+
+<b>Country:</b> India<br>
+<b>Role:</b> Wicket Keeper<br>
+<b>Captain:</b> World Cup Winner<br>
+<b>Nickname:</b> Captain Cool
+
+</div>
+
+<button>View Profile</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/gill.jpg" alt="Shubman Gill">
+
+<h2>Shubman Gill</h2>
+
+<div class="info">
+
+<b>Country:</b> India<br>
+<b>Role:</b> Opening Batsman<br>
+<b>Batting:</b> Right Handed<br>
+<b>Style:</b> Elegant Stroke Player
+
+</div>
+
+<button>View Profile</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/hardik.jpg" alt="Hardik Pandya">
+
+<h2>Hardik Pandya</h2>
+
+<div class="info">
+
+<b>Country:</b> India<br>
+<b>Role:</b> All-rounder<br>
+<b>Batting:</b> Right Handed<br>
+<b>Bowling:</b> Right Arm Medium Fast
+
+</div>
+
+<button>View Profile</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>🏏 CricketVerse</h2>
+
+<p>Explore Your Favourite Cricket Players</p>
+
+<p>© 2026 CricketVerse. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
